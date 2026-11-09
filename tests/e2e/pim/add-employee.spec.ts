@@ -14,4 +14,6 @@ test.describe("PIM - Add Employee", ()=>
         await expect(toast.message).toContainText(MESSAGES.savedSuccessfully);
         await expect(page).toHaveURL(/viewPersonalDetails/)
     })
-})
+});
+
+
